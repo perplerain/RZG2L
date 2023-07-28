@@ -1,2 +1,2 @@
-# RZA2M
-renesas rza2m
+# RZG2L
+renesas rzg2l manifest VLP 3.04

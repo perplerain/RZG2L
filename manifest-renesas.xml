@@ -13,7 +13,7 @@
         path="sources/meta-gplv2" />
     <project name="meta-renesas" remote="renesas" revision="refs/tags/BSP-3.0.3"
         path="sources/meta-renesas" />
-    <project name="meta-qt5" remote="qt5" revision="I65eca443cb43e5be140cc9faafb85c1e6e5dfd85"
+    <project name="meta-qt5" remote="qt5" revision="c1b0c9f546289b1592d7a895640de103723a0305"
         path="sources/meta-qt5" />
     <project name="meta-virtualization" remote="yocto"
         revision="a63a54df3170fed387f810f23cdc2f483ad587df"

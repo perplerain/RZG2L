@@ -11,21 +11,21 @@ TEMPLATECONF=$PWD/meta-renesas/meta-rzg2l/docs/template/conf/ source poky/oe-ini
 
 To build optional features (Docker, Codec or Graphics, QT5, Bootloaders, Security), add necessary layers
 
-# For Docker
+For Docker
 $ bitbake-layers add-layer ../meta-openembedded/meta-filesystems
 $ bitbake-layers add-layer ../meta-openembedded/meta-networking
 $ bitbake-layers add-layer ../meta-virtualization
 
-# For Codec
+For Codec
 $ bitbake-layers add-layer ../meta-rz-features/meta-rz-codecs
 
-# For Graphics
+For Graphics
 $ bitbake-layers add-layer ../meta-rz-features/meta-rz-graphics
 
-# For QT5
+For QT5
 $ bitbake-layers add-layer ../meta-qt5
 
-# For Security (supported for RZ/G2[H,M,N,E], RZ/G2[L,LC,UL] and RZ/V2L)
+For Security (supported for RZ/G2[H,M,N,E], RZ/G2[L,LC,UL] and RZ/V2L)
 $ bitbake-layers add-layer ../meta-rz-features/meta-rz-security
 
 Build the target file system image using bitbake:

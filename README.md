@@ -4,7 +4,9 @@
 
 !renesas rzg2l manifest VLP 3.05!
 
+
 repo init -u https://github.com/perplerain/RZG2L -m manifest-vlp_305.xml
+
 repo sync
 
 ############## Build ###########

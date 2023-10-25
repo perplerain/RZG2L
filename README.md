@@ -1,5 +1,4 @@
 # RZG2L
-renesas rzg2l manifest VLP 3.03
 
 ######################################
 
@@ -7,6 +6,9 @@ renesas rzg2l manifest VLP 3.03
 
 repo init -u https://github.com/perplerain/RZG2L -m manifest-vlp_305.xml
 repo sync
+
+############## Build ###########
+
 TEMPLATECONF=$PWD/meta-renesas/meta-rzg2l/docs/template/conf/ source poky/oe-init-build-env build
 
 To build optional features (Docker, Codec or Graphics, QT5, Bootloaders, Security), add necessary layers

@@ -11,8 +11,7 @@ repo sync
 
 Need to download codec & graphics-lib
 
-https://www.renesas.com/us/en/document/sws/rz-mpu-video-codec-library-evaluation-version-rzv2l-rtk0ef0045z15001zj-v110enzip?r=1496691
-
+[https://www.renesas.com/us/en/document/sws/rz-mpu-video-codec-library-evaluation-version-rzv2l-rtk0ef0045z15001zj-v110enzip?r=1496691]
 https://www.renesas.com/us/en/document/sws/rz-mpu-graphics-library-evaluation-version-rzv2l-rtk0ef0045z13001zj-v110enzip?r=1496691
 
 After downloading the proprietary package, please decompress them then put meta-rz-features folder at $WORK folder.
